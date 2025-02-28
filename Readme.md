@@ -6,7 +6,9 @@
 #
 
 Explation: This Code presents 
+
 -Requeriments:
+
 -Python 3.10 (versões compatíveis com match case)
 
 This code features a turn-based game in Python! In this game, you must create a ninja strong enough to fight and defeat Madara Uchiha!
