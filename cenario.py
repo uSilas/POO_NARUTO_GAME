@@ -12,5 +12,5 @@ class Cenario:
         for ninja in self.ninja_list:
             if ninja_atual != ninja:
                 novo_dano = ninja.get_dano_base() - dano  # Obtém o dano atual e reduz
-                ninja.set_dano_base(novo_dano)  # Usa o setter para atualizar
+                ninja.set_dano_base(novo_dano) 
                 print(f"{ninja_atual.nome} roubou chakra de {ninja.nome}")

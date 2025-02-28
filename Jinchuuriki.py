@@ -13,13 +13,11 @@ class Jinchuuriki(Ninja):
             if index + 1 == self.numero_caudas:
                 print(f"A bijuu do Jinchuuriki {self.nome} é {valor}")
 
-    # Getter para acessar dano_base
     def get_dano_base(self):
         return self.__dano_base
 
-    # Setter para modificar dano_base
     def set_dano_base(self, novo_dano):
-        if novo_dano >= 0:  # Evita valores negativos
+        if novo_dano >= 0:  # Evita valores negativos (a bijuu sempre vai ajudar dando chakra)
             self.__dano_base = novo_dano
         else:
             print("O dano base não pode ser negativo!")
