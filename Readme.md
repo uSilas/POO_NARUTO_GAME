@@ -5,7 +5,7 @@
 
 #
 
-Explation: 
+Explanation: 
 
 This code features a turn-based game in Python! In this game, you must create a ninja strong enough to fight and defeat Madara Uchiha!
 
