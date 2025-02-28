@@ -18,7 +18,7 @@ Playable only in the terminal.
 #
 **How to play??**
 
-1. Git clone <link_repository>
+1. Git clone [<link_repository>](https://github.com/uSilas/POO_NARUTO_GAME.git)
 
 2. Open terminal in past 'PROJETOFINAL_POO' and use 'python3 ./main.py'. Recommended use IDE to run this code
 #
