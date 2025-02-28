@@ -25,7 +25,7 @@ Playable only in the terminal.
 
 **GOOD GAME !!**
 
-![Image]([https://www.reddit.com/r/Naruto/comments/15f0leg/what_was_madaras_mangekyou_ability/?tl=pt-br](https://i.imgur.com/tvnk4Hh.gif))
+![Image](https://i.imgur.com/fAhSQL9.png)
 
 ![Version](https://img.shields.io/badge/version-3.10-blue)
 ![Feito com Python](https://img.shields.io/badge/Made%20with-Python-blue)
