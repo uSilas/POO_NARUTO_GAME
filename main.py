@@ -79,7 +79,7 @@ def play_game(kishimoto_use, Kaguya_existis):
                     case 1:
                         time.sleep(0.5)
                         Cenario.ninja_list[0].jogar_shuriken()
-                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() - 100)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() - 100)  
                         print(f"{Cenario.ninja_list[0].nome} causou {Cenario.ninja_list[0].get_dano_base() - 100} de dano!!")
                     case 2:
                         time.sleep(0.5)
@@ -94,7 +94,7 @@ def play_game(kishimoto_use, Kaguya_existis):
                         time.sleep(0.5)
                         Cenario.ninja_list[0].usar_jutsu(Cenario.ninja_list[0].jutsu[opcao_jutsu])
                         time.sleep(0.5)
-                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() + 300)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() + 300)  
                         time.sleep(0.5)
                         print(f"{Cenario.ninja_list[0].nome} causou {Cenario.ninja_list[0].get_dano_base() + 300} de dano!!\n")
                     case 4:
@@ -139,14 +139,14 @@ def play_game(kishimoto_use, Kaguya_existis):
                     time.sleep(0.5)
                     Cenario.ninja_list[1].jogar_shuriken()
                     time.sleep(0.5)
-                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() - 100)  # Chamando a função do_damage
+                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() - 100)  
                     time.sleep(0.5)
                     print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() - 100} de dano!!!!")
                 elif acao_boss == "Socar":
                     time.sleep(0.5)
                     Cenario.ninja_list[1].soco()
                     time.sleep(0.5)
-                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  # Chamando a função do_damage
+                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  
                     time.sleep(0.5)
                     print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base()} de dano!!!!")
                     
@@ -156,7 +156,7 @@ def play_game(kishimoto_use, Kaguya_existis):
                     Cenario.ninja_list[1].usar_jutsu(jutsu_escolhido)
                     if jutsu_escolhido == Cenario.ninja_list[1].jutsu[0]:
                         time.sleep(0.5)
-                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  
                         print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() + 400} de dano!!!")
                     elif jutsu_escolhido == Cenario.ninja_list[1].jutsu[1]:
                         if Cenario.ninja_list[1].nome == 'Madara Uchiha':
@@ -166,21 +166,21 @@ def play_game(kishimoto_use, Kaguya_existis):
                                 time.sleep(0.5)
                                 print(f"{Cenario.ninja_list[1].nome} utilizou Susanoo com clones! Acerto Crítico!")
                                 time.sleep(0.5)
-                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base()*4)  # Chamando a função do_damage
+                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base()*4)  
                             else:
                                 time.sleep(0.5)
-                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base()*2)  # Chamando a função do_damage
+                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base()*2)  
                         time.sleep(0.5)
-                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  
                         print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() + 400} de dano!!!")
                     elif jutsu_escolhido == Cenario.ninja_list[1].jutsu[2]:
                         if Cenario.ninja_list[1].nome == "Kaguya Otsutsuki":
                             time.sleep(0.5)
                             print(f"Kaguya roubou seu chakra: -{Cenario.ninja_list[1].get_dano_base()} pra você!!!")
-                            Cenario.steal_chakra(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  # Chamando a função do_damage
+                            Cenario.steal_chakra(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  
                         else:
                             time.sleep(0.5)
-                            Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 800)  # Chamando a função do_damage
+                            Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 800)  
                             print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() + 800} de dano!!!")
                     else:
                         time.sleep(0.5)
@@ -198,7 +198,7 @@ def play_game(kishimoto_use, Kaguya_existis):
                     case 1:
                         time.sleep(0.5)
                         Cenario.ninja_list[0].jogar_shuriken()
-                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() - 100)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() - 100)  
                         print(f"{Cenario.ninja_list[0].nome} causou {Cenario.ninja_list[0].get_dano_base() - 100} de dano!!")
                     case 2:
                         time.sleep(0.5)
@@ -213,7 +213,7 @@ def play_game(kishimoto_use, Kaguya_existis):
                         time.sleep(0.5)
                         Cenario.ninja_list[0].usar_jutsu(Cenario.ninja_list[0].jutsu[opcao_jutsu])
                         time.sleep(0.5)
-                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() + 300)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[0], Cenario.ninja_list[0].get_dano_base() + 300)  
                         time.sleep(0.5)
                         print(f"{Cenario.ninja_list[0].nome} causou {Cenario.ninja_list[0].get_dano_base() + 300} de dano!!\n")
                     case 4:
@@ -233,14 +233,14 @@ def play_game(kishimoto_use, Kaguya_existis):
                     time.sleep(0.5)
                     Cenario.ninja_list[1].jogar_shuriken()
                     time.sleep(0.5)
-                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  # Chamando a função do_damage
+                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  
                     time.sleep(0.5)
                     print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() - 100} de dano!!!!")
                 elif acao_boss == "Socar":
                     time.sleep(0.5)
                     Cenario.ninja_list[1].soco()
                     time.sleep(0.5)
-                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  # Chamando a função do_damage
+                    Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  
                     time.sleep(0.5)
                     print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base()} de dano!!!!")
                 else:
@@ -249,7 +249,7 @@ def play_game(kishimoto_use, Kaguya_existis):
                     Cenario.ninja_list[1].usar_jutsu(jutsu_escolhido)
                     if jutsu_escolhido == Cenario.ninja_list[1].jutsu[0]:
                         time.sleep(0.5)
-                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  
                         print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() + 400} de dano!!!")
                     elif jutsu_escolhido == Cenario.ninja_list[1].jutsu[1]:
                         if Cenario.ninja_list[1].nome == 'Madara Uchiha':
@@ -259,22 +259,22 @@ def play_game(kishimoto_use, Kaguya_existis):
                                 time.sleep(0.5)
                                 print(f"{Cenario.ninja_list[1].nome} utilizou Susanoo com clones! Acerto Crítico!")
                                 time.sleep(0.5)
-                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base()*3)  # Chamando a função do_damage
+                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base()*3)  
                                 print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base()*3} de dano!!!")
                             else:
                                 time.sleep(0.5)
-                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 600)  # Chamando a função do_damage
+                                Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 600)  
                                 print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() + 600} de dano!!!")
                         time.sleep(0.5)
-                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  # Chamando a função do_damage
+                        Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 400)  
                     elif jutsu_escolhido == Cenario.ninja_list[1].jutsu[2]:
                         if Cenario.ninja_list[1].nome == "Kaguya Otsutsuki":
                             time.sleep(0.5)
                             print(f"Kaguya roubou seu chakra: -{Cenario.ninja_list[1].get_dano_base()} pra você!!!")
-                            Cenario.steal_chakra(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  # Chamando a função do_damage
+                            Cenario.steal_chakra(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base())  
                         else:
                             time.sleep(0.5)
-                            Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 800)  # Chamando a função do_damage
+                            Cenario.do_damage(Cenario.ninja_list[1], Cenario.ninja_list[1].get_dano_base() + 800)  
                             print(f"{Cenario.ninja_list[1].nome} causou {Cenario.ninja_list[1].get_dano_base() + 800} de dano!!!")
         turno += 1
         
