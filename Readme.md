@@ -25,7 +25,7 @@ Playable only in the terminal.
 
 **GOOD GAME !!**
 
-![Image](https://i.imgur.com/fAhSQL9.png)
+![Image]([https://i.imgur.com/fAhSQL9.png](https://i.imgur.com/tvnk4Hh.gif))
 
 ![Version](https://img.shields.io/badge/version-3.10-blue)
 ![Feito com Python](https://img.shields.io/badge/Made%20with-Python-blue)
