@@ -1,13 +1,11 @@
 
-# GAME WITH PYTHON: Please Kill Uchiha Madara! Or This Anime Will Never End!
+# GAME WITH PYTHON: Please Kill Uchiha Madara! Or This Anime Will Never End! ⚔️ ✇
 
 #### This is a code created by me (Silas Eufrásio) for an assessment in the OOP course at the Federal University of Ceará.
 
 #
 
-Explation: This Code presents 
--Requeriments:
--Python 3.10 (versões compatíveis com match case)
+Explanation: 
 
 This code features a turn-based game in Python! In this game, you must create a ninja strong enough to fight and defeat Madara Uchiha!
 
@@ -15,8 +13,12 @@ The title and the game are purely comedic and meant for entertainment purposes o
 
 Playable only in the terminal.
 
+-Requeriments:
+
+-Python 3.10 (because match case)
+
 #
-**How to play??**
+**How to play?? 🎮**
 
 1. Git clone <https://github.com/uSilas/POO_NARUTO_GAME.git>
 
